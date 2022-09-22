@@ -1,0 +1,63 @@
+/* .icons {
+  color: rgb(214, 101, 57);
+}
+
+.icons:hover {
+  font-size: 20px;
+} */
+
+td .delete {
+    color: red;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .icons * {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .readOnly {
+    border: none;
+    width: 90%;
+    text-overflow: ellipsis;
+    background-color: rgba(6, 44, 238, 0);
+    text-align: center;
+  }
+  
+  .selected {
+    background: hsla(62, 99%, 51%, 0.279);
+  }
+  
+  .deselected {
+    /* text-align: center; */
+    /* height: 10%; */
+    /* border: 3px solid rgba(6, 44, 238, 0.0); */
+    background-color: rgba(6, 44, 238, 0.03);
+    /* border-left-style: hidden; */
+    /* border-right-style: hidden; */
+  }
+  
+  .selected input {
+    background: hsla(241, 87%, 59%, 0);
+  }
+  
+  label {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .admin {
+    color: #E1E8EB;
+    background-color: #F2D6EB;
+    padding: 5px;
+    border-radius: 5px;
+    /* z-index: 1000; */
+  }
+  
+  .member {
+    color: white;
+    background-color: #CCFFBD;
+    padding: 5px;
+    border-radius: 5px;
+  }

@@ -1,38 +1,51 @@
+* {
+  font-family: 'Righteous', cursive;
+}
+
 .App {
   text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search {
+  width: 80vw;
+  padding: 1vh 0 1vh 1vw;
+  margin-bottom: 1vh;
+  border-radius: 3px;
+  outline: none;
+  border: 2px solid rgb(37, 0, 250) ;
+  transition: all 245ms ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search:focus{
+  box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+  border: 2px solid blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fa-edit {
+  color:rgb(57, 94, 214) !important;
+  transition: all 230ms ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-edit:hover {
+  transform: scale(1.25);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-trash-alt {
+  color:red;
+  transition: all 230ms ease-in-out;
+}
+
+.fa-trash-alt:hover{
+  transform: scale(1.25);
+}
+
+.fa-save {
+  color: green;
+  transition: all 230ms ease-in-out;
+}
+
+.fa-save:hover {
+  transform: scale(1.25);
 }
