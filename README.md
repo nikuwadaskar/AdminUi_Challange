@@ -1,4 +1,4 @@
-# hosted Link
+# Hosted Link
 `<link>`: [AdminUI](https://admin-ui-03.netlify.app/)
 
 # Getting Started with Create React App
